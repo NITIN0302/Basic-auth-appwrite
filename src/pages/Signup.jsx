@@ -13,9 +13,9 @@ const Signup = () => {
   };
 
   return (
-    <div className="w-[30%] h-[40%] border border-black rounded-md mx-auto mt-[10%] ">
+    <div className="w-[30%] h-[45%] border border-black rounded-md mx-auto mt-[10%] ">
       <div className="flex flex-wrap justify-center">
-        <h2 className="w-full my-4 flex flex-wrap justify-center font-mono">Signup</h2>
+        <h2 className="w-full my-4 flex flex-wrap justify-center text-5xl font-mono">Signup</h2>
         <input
           type="text"
           className="w-[80%] outline-none border border-black rounded-sm px-1 my-2"

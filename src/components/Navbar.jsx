@@ -13,19 +13,19 @@ function Navbar() {
           <div className="flex flex-wrap">
             <ul className="flex flex-wrap">
               <li className="mx-3">
-                 <Link path="/">Home</Link>
+                <Link className="focus:text-blue-500" to="/">Home</Link>
               </li>
               <li className="mx-3">
-                <Link to="/login">Login</Link>
+                <Link className="focus:text-blue-500" to="/login">Login</Link>
               </li>
               <li className="mx-3">
-                <Link to="/signup">SignUp</Link>
+                <Link className="focus:text-blue-500" to="/signup">SignUp</Link>
               </li>
             </ul>
           </div>
         </div>
         <Routes>
-          <Route path="/" element={<Home/>}></Route>
+          <Route path="/" element={<Home />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/signup" element={<Signup />}></Route>
         </Routes>
